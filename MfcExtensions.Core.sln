@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{75EB31D5-B7ED-4E29-B4E4-3E2E25A9D764}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiExtensions", "src\DiExtensions\DiExtensions.csproj", "{9CEDE8AB-C89C-417C-AC30-32A250358622}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{8D65C504-6612-4242-818D-34BE4BF3BF61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9CEDE8AB-C89C-417C-AC30-32A250358622} = {75EB31D5-B7ED-4E29-B4E4-3E2E25A9D764}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CEDE8AB-C89C-417C-AC30-32A250358622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CEDE8AB-C89C-417C-AC30-32A250358622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CEDE8AB-C89C-417C-AC30-32A250358622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CEDE8AB-C89C-417C-AC30-32A250358622}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
