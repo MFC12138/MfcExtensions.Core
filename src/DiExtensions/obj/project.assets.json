@@ -113,7 +113,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "/Users/zxhu/Desktop/MyNuget/MfcExtensions.Core/src/DiExtensions/DiExtensions.csproj",
-      "projectName": "DiExtensions",
+      "projectName": "Mfc.DependencyInjection.Extensions",
       "projectPath": "/Users/zxhu/Desktop/MyNuget/MfcExtensions.Core/src/DiExtensions/DiExtensions.csproj",
       "packagesPath": "/Users/zxhu/.nuget/packages/",
       "outputPath": "/Users/zxhu/Desktop/MyNuget/MfcExtensions.Core/src/DiExtensions/obj/",

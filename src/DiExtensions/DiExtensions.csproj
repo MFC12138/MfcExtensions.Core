@@ -5,10 +5,28 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <RootNamespace>Mfc.DependencyInjection.Extensions</RootNamespace>
+        <PackageId>Mfc.DependencyInjection.Extensions</PackageId>
+        <Title>Mfc Dependency Injection Extensions </Title>
+        <Authors>Mfc</Authors>
+        <Description>支持注解式自动注入的轻量级扩展库</Description>
+        <PackageProjectUrl>https://github.com/MFC12138/MfcExtensions.Core</PackageProjectUrl>
+        <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+        <PackageIcon>logo.jpg</PackageIcon>
+        <RepositoryUrl>https://github.com/MFC12138/MfcExtensions.Core.git</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>dependencyinjection di extensions</PackageTags>
+        <PackageReleaseNotes>初始化版本，支持基于属性的自动注入注册。</PackageReleaseNotes>
     </PropertyGroup>
 
     <ItemGroup>
       <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.6" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="logo.jpg">
+        <Pack>True</Pack>
+        <PackagePath></PackagePath>
+      </None>
     </ItemGroup>
 
 </Project>
